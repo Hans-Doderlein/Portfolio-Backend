@@ -28,7 +28,7 @@ router.post("/", async (req, res) => {
         Have a wonderful rest of the day. I look forward to speaking with you shortly.
         
         Best regards,   
-        
+
         Hans Doderlein`, // Email content (plain text)
     };
 
@@ -61,7 +61,7 @@ router.post("/", async (req, res) => {
 
     res.status(200).json({ message: "Emails sent" });
   } catch (error) {
-    res.status(500).json({ message: "Emails not sent" });
+    res.status(400).json({ message: "Emails not sent" });
   }
 });
 
