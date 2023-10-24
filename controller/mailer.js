@@ -25,7 +25,11 @@ router.post("/", async (req, res) => {
 
         Should you have any other questions or comments feel free to send another message.
 
-        Have a wonderful rest of the day. I look forward to speaking with you shortly.`, // Email content (plain text)
+        Have a wonderful rest of the day. I look forward to speaking with you shortly.
+        
+        Best regards,   
+        
+        Hans Doderlein`, // Email content (plain text)
     };
 
     // Compose email data
